@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
-import { Laptop, Shield, Zap, Cloud, Users } from 'lucide-react';
+import { Laptop, Shield, Zap, Cloud, Users, HardDrive } from 'lucide-react';
 
 const services = [
   {
@@ -32,6 +32,12 @@ const services = [
     title: "Tech Training for Non-Tech Folks",
     description: "Plain-English training to help your team get comfortable with the tools they use daily.",
     icon: Users,
+  },
+  {
+    id: 6,
+    title: "Backup & Data Protection",
+    description: "Protect your important files and systems with secure, automated backups tailored to your team's needs.",
+    icon: HardDrive,
   },
 ];
 
@@ -78,7 +84,7 @@ const WhatIDo = () => {
             <div
               key={service.id}
               ref={(el) => (serviceRefs.current[index] = el)}
-              className={`animate-on-scroll stagger-${index % 5 + 1} bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-all hover:translate-y-[-5px] border border-gray-100`}
+              className={`animate-on-scroll stagger-${index % 6 + 1} bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-all hover:translate-y-[-5px] border border-gray-100`}
             >
               <div className="w-14 h-14 flex items-center justify-center rounded-full bg-lextek-accent/20 text-lextek-primary mb-6">
                 <service.icon size={26} />
