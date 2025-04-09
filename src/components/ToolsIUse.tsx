@@ -5,44 +5,45 @@ const tools = [
   {
     id: 1,
     name: "Microsoft 365",
-    icon: "https://img.icons8.com/color/96/000000/microsoft-office-2019.png",
+    icon: "/assets/microsoft-office-2019.png",
   },
   {
     id: 2,
     name: "Google Workspace",
-    icon: "https://img.icons8.com/color/96/000000/google-logo.png",
+    icon: "/assets/google-logo.png",
   },
   {
     id: 3,
     name: "Ubiquiti (Unifi)",
-    icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-ubiquiti-networks-american-technology-company-logo-color-tal-revivo.png",
+    icon: "/assets/icons8-ubiquiti-96.png",
   },
   {
     id: 4,
     name: "Synology",
-    icon: "https://img.icons8.com/color/96/000000/nas.png",
+    icon: "/assets/nas.png",
   },
   {
     id: 5,
-    name: "Docker",
-    icon: "https://img.icons8.com/color/96/000000/docker.png",
+    name: "Action1",
+    icon: "/assets/Action1-96px.png",
   },
   {
     id: 6,
-    name: "PowerShell",
-    icon: "https://img.icons8.com/color/96/000000/powershell.png",
+    name: "Docker",
+    icon: "/assets/docker.png",
   },
   {
     id: 7,
-    name: "Portainer",
-    icon: "https://img.icons8.com/color/96/000000/server.png",
+    name: "VS Code",
+    icon: "/assets/visual-studio-code-96.png",
   },
   {
     id: 8,
-    name: "Windows Server",
-    icon: "https://img.icons8.com/color/96/000000/windows-logo.png",
+    name: "Proxmox",
+    icon: "/assets/proxmox-96.png",
   },
 ];
+
 
 const ToolsIUse = () => {
   const toolsRef = useRef<HTMLDivElement>(null);
