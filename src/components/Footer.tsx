@@ -63,6 +63,16 @@ const Footer = () => {
                 Site Design by me and my Lovable ai
               </a>
             </p>
+            <p className="mt-1 text-xs">
+              <a 
+                href="https://chatgpt.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                Special thanks to Melissa
+              </a>
+            </p>
           </div>
         </div>
       </div>
