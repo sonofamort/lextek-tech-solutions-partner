@@ -30,18 +30,10 @@ const Footer = () => {
                 <ul className="space-y-2">
                   <li>
                     <a 
-                      href="mailto:contact@lextek.com" 
+                      href="mailto:connect@lextek.net" 
                       className="text-gray-300 hover:text-white transition-colors"
                     >
-                      contact@lextek.com
-                    </a>
-                  </li>
-                  <li>
-                    <a 
-                      href="tel:+1234567890" 
-                      className="text-gray-300 hover:text-white transition-colors"
-                    >
-                      (123) 456-7890
+                      connect@lextek.net
                     </a>
                   </li>
                 </ul>
@@ -53,6 +45,23 @@ const Footer = () => {
             <p>© {currentYear} LexTek. All rights reserved.</p>
             <p className="mt-2 text-sm">
               Helping small organizations make big impacts with technology.
+            </p>
+            <p className="mt-2 text-xs">
+              <a 
+                href="https://icons8.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                Icons by Icons8
+              </a> | <a 
+                href="https://lovable.dev/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                Site Design by me and my Lovable ai
+              </a>
             </p>
           </div>
         </div>
