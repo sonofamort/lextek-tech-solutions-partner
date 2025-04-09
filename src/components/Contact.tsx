@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
-import { Mail, Calendar } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 const Contact = () => {
   const contactRef = useRef<HTMLDivElement>(null);
@@ -45,23 +45,13 @@ const Contact = () => {
           </div>
 
           <div className="bg-lextek-secondary rounded-xl p-10 shadow-md border border-gray-100">
-            <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
+            <div className="flex justify-center">
               <a 
-                href="mailto:contact@lextek.com" 
-                className="flex items-center gap-3 bg-white px-6 py-4 rounded-lg hover:bg-lextek-accent/30 transition-colors border border-gray-200 text-lextek-dark w-full md:w-auto justify-center"
+                href="mailto:connect@lextek.net" 
+                className="flex items-center gap-3 bg-lextek-primary px-8 py-5 rounded-lg hover:bg-lextek-dark transition-colors text-white text-xl font-medium w-auto justify-center"
               >
-                <Mail size={20} />
-                <span className="font-medium">Email Me</span>
-              </a>
-              
-              <a 
-                href="https://calendly.com/yourusername" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="flex items-center gap-3 bg-lextek-primary px-6 py-4 rounded-lg hover:bg-lextek-dark transition-colors text-white w-full md:w-auto justify-center"
-              >
-                <Calendar size={20} />
-                <span className="font-medium">Schedule a Call</span>
+                <Mail size={24} />
+                <span>Email Me</span>
               </a>
             </div>
             
